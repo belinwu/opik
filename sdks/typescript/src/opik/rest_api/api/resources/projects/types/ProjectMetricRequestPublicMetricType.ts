@@ -3,11 +3,7 @@
  */
 
 export type ProjectMetricRequestPublicMetricType =
-    | "FEEDBACK_SCORES"
-    | "TRACE_COUNT"
-    | "TOKEN_USAGE"
-    | "DURATION"
-    | "COST";
+    "FEEDBACK_SCORES" | "TRACE_COUNT" | "TOKEN_USAGE" | "DURATION" | "COST";
 export const ProjectMetricRequestPublicMetricType = {
     FeedbackScores: "FEEDBACK_SCORES",
     TraceCount: "TRACE_COUNT",
